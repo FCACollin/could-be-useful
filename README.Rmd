@@ -1,0 +1,31 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+```{r, include = FALSE, eval = FALSE}
+devtools::check()
+pkgdown::build_site()
+```
+
+# cbu
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of _cbu_ (_Could Be Useful_) is to shelter  miscellaneous functions
+developed for specific tasks but which still don't form a consistent
+package.
+
+[modeline]: # ( vim: set foldlevel=0 spell spelllang=en_gb: )
+
